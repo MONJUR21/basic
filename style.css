@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+body header p{
+    color: red;
+    border: 3px solid black;
+    opacity: 0.8;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+aside{
+    width: 100px; 
+    background-color: rgb(6, 6, 61);
+    color: yellow;
+    height: 200px;
+  
+}
+main{
+    flex: 1;
+    background-color: rgb(174, 174, 196);
+
+}
