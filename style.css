@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+::selection{
+    color:blue;
+    background-color: aqua;
+}
 .navbar{
     color: rgb(214, 9, 115);
     border: 2px solid black;
@@ -29,7 +33,7 @@ aside{
     width: 100px; 
     background-color: rgb(6, 6, 61);
     color: yellow;
-    height: 2000px;
+    height: 200px;
   
 }
 main{
