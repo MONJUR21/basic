@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
     <style>
-         
-        nav ul{
-            color: rgb(66, 25, 104);
-            background-color: aqua;
-            display: flex;
-            /* justify-content: space-between; */
-            list-style: none;
-            gap:23px;
-            height: 40px;
-            /* padding-top: 4px; */
-            /* justify-content: center; */
-            align-items: center;
-        }
-        input{
-            width:150px;
-            height:25px;
-            margin-left: 900px;
-        }
+      nav ul {
+        color: rgb(66, 25, 104);
+        background-color: aqua;
+        display: flex;
+        /* justify-content: space-between; */
+        list-style: none;
+        /* gap: 23px; */
+        height: 40px;
+        /* padding-top: 4px; */
+        /* justify-content: center; */
+        align-items: center;
+      }
+      nav ul li{
+        padding: 15px;
+      }
+      input {
+        width: 150px;
+        height: 25px;
+        margin-left: 900px;
+      }
+      code{
+        background-color: black;
+        color: white;
+        display: flex;
+        /* width: 200px; */
+        height: 30px;
+        align-items: center;
+        padding-left: 15px;
+        
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <!-- <li id="label1"><label for="name">Name: </label></li> -->
-                <li><input id="name" type="text" placeholder="Enter your name" ></li>
-            </ul>
-            
-        </nav>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <!-- <li id="label1"><label for="name">Name: </label></li> -->
+          <li><input id="name" type="text" placeholder="Enter your name" /></li>
+        </ul>
+      </nav>
     </header>
-</body>
+    <main>
+      <code>int x= 20</code>
+    </main>
+  </body>
 </html>
