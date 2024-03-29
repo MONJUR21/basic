@@ -1,4 +1,4 @@
-<!--
+
 * {
     padding: 0;
     margin: 0;
@@ -46,6 +46,22 @@ main{
 .box{
     background-color: rgb(131, 128, 179);
     height: 100px;
+    width: 50vw;
     border: 2px solid red;
     margin: 20px 3px 9px 10px;
-}-->
+}
+@keyframes monjur{
+    from { background-color:azure; }
+    to{ background-color:yellow}
+}
+.box{
+    animation: monjur 4s ease-in 2s infinite normal;
+}
+/* .box:hover{
+    font-size: 30px;
+    color: aqua;
+    transform: translate(-20px,-120px);
+    transform:skew(45deg) scale(2) translate(120px);
+    transition: all 5s ease-in-out 1s;
+}
+ */
